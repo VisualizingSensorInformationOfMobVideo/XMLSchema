@@ -12,6 +12,11 @@
 <xs:element name="Name">
   <xs:simpleType>
     <xs:restriction base="xs:string">
+      <xs:annotation>
+        <xs:documentation xml:lang="en">
+          This restriction makes you write all the sensors/capabilites that is valid, this may not be necessary, and is up to debate.
+        </xs:documentation>
+      </xs:annotation>
       <xs:enumeration value="Acceleration"/>
       <xs:enumeration value="Rotation"/>
       <xs:enumeration value="Position"/>
