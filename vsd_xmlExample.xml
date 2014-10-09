@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <logFile dateTime="2014-10-07T13:56:24.129+0320">
-  <appName>Name of app here</appName>
+  <appName>Visualizing Sensor Information</appName>
 
   <logItem dateTime="2014-10-07T13:57:23.794+0000">
     <name>Rotation</name>
@@ -14,4 +14,8 @@
     <entry type="force">0.2342225</entry>
   </logItem>
 
+  <logItem dateTime="2014-10-07T13:59:23.723+0020">
+    <name>Brightness</name>
+    <entry type="lux">100</entry>
+  </logItem>
 </logFile>
