@@ -1,6 +1,24 @@
 <?xml version="1.0"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
 
+<xs:element name="camera">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element name="resolution" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:element>
+
+<xs:element name="logItem">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element name="name" type="xs:string"/>
+      <xs:element ref="entry" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute ref="dateTime" use="required"/>
+  </xs:complexType>
+</xs:element>
+
 <xs:attribute name="dateTime">
   <xs:simpleType>
     <xs:restriction base="xs:string">
@@ -19,22 +37,17 @@
   </xs:complexType>
 </xs:element>
 
+<!-- ROOT ELEMENT -->
 <xs:element name="logFile">
   <xs:complexType>
     <xs:sequence>
       <xs:element name="appName" type="xs:string"/>
-      <xs:element name="logItem" maxOccurs="unbounded">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element name="name" type="xs:string"/>
-            <xs:element ref="entry" maxOccurs="unbounded"/>
-          </xs:sequence>
-          <xs:attribute ref="dateTime" use="required"/>
-        </xs:complexType>
-      </xs:element>
+      <xs:element ref="camera"/>
+      <xs:element ref="logItem" maxOccurs="unbounded"/>
     </xs:sequence>
     <xs:attribute ref="dateTime" use="required"/>
-    <xs:attribute name="id" type="xs:string" use="optional" />
+    <xs:attribute name="id" type="xs:string" use="required" />
+    <xs:attribute name="phoneModel" type="xs:string" use="required" />
   </xs:complexType>
 </xs:element>
 

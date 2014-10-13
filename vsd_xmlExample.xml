@@ -1,6 +1,10 @@
 <?xml version="1.0"?>
-<logFile dateTime="2014-10-07T13:56:24.129+0320">
+<logFile dateTime="2014-10-07T13:56:24.129+0320" id="randomStringSample" phoneModel="GT-I9100">
   <appName>Visualizing Sensor Information</appName>
+
+  <camera>
+    <resolution>1920x1080</resolution>
+  </camera>
 
   <logItem dateTime="2014-10-07T13:57:23.794+0000">
     <name>Rotation</name>
@@ -18,7 +22,7 @@
     <name>Brightness</name>
     <entry type="lux">100</entry>
   </logItem>
-  
+
   <logItem dateTime="2014-10-07T13:59:23.759+0020">
   <name>Snapshot</name>
     <entry type="base64jpeg">9j/4AAQSkZJRgABAgAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0a
