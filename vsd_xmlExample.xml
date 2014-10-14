@@ -4,6 +4,8 @@
 
   <camera>
     <resolution>1920x1080</resolution>
+    <verticalViewAngle type="degrees">47.1</verticalViewAngle>
+    <horizontalViewAngle type="degrees">60.5</horizontalViewAngle>
   </camera>
 
   <logItem dateTime="2014-10-07T13:57:23.794+0000">
