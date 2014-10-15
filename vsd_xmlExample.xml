@@ -26,7 +26,7 @@
   </logItem>
 
   <logItem dateTime="2014-10-07T13:59:23.759+0020">
-  <name>Snapshot</name>
+    <name>Snapshot</name>
     <entry type="base64jpeg">9j/4AAQSkZJRgABAgAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0a
 HBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIy
 MjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAArAC8DASIA
@@ -57,6 +57,17 @@ exIQ7d3bIPJJOBnFb/i7SrO80me9kjdbuzhd7e4hlaKSM4zw6EHHAyM4PpXgvhPxj4k1vxQdM1DX
 dQltPO8vYtw0Z28/xKQ360DPVLvwT4Z0+1iW7sYvLVv3a6lqBESsc8qu7BPXjjPP1qrpumS3sD23
 hqxtBYM2TPHF9msmI4yMDfOBjIIwM8eZiu0t/BfhyCVZzpFvPOvSa6BuJB/wOQsf1rdAC4AGABwB
 QBzWheDbLSJ1vrmVr/Uhk/aZlACFsBvLQcJnABPLEdWNdNRRQB//2Q==
-</entry>
+    </entry>
   </logItem>
+
+  <logItem dateTime="2014-10-07T14:01:23.286+0000">
+    <name>Location</name>
+    <entry type="speed">6.943049907684326</entry>
+    <entry type="altritude">138.0999755859375</entry>
+    <entry type="longitude">10.351234590634704</entry>
+    <entry type="latitude">60.17254586331546</entry>
+    <entry type="accuracy">10.0</entry>
+    <entry type="provider">gps</entry>
+  </logItem>
+
 </logFile>
