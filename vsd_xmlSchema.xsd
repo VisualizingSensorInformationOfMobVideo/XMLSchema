@@ -5,7 +5,30 @@
   <xs:complexType>
     <xs:sequence>
       <xs:element name="resolution" type="xs:string"/>
+      <!-- view angle made optional because it does not change in subsequent messages from this ID -->
+      <xs:element ref="verticalViewAngle" minOccurs="0"/>
+      <xs:element ref="horizontalViewAngle" minOccurs="0"/>
     </xs:sequence>
+  </xs:complexType>
+</xs:element>
+
+<xs:element name="verticalViewAngle">
+  <xs:complexType>
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute name="type" type="xs:string" use="required"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+</xs:element>
+
+<xs:element name="horizontalViewAngle">
+  <xs:complexType>
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute name="type" type="xs:string" use="required"/>
+      </xs:extension>
+    </xs:simpleContent>
   </xs:complexType>
 </xs:element>
 
