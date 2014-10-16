@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
 
-<!-- This element contains static information about the camera from this device -->
+<!-- The camera element contains static information about the camera from this device -->
 <xs:element name="camera">
   <xs:complexType>
     <xs:sequence>
